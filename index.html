@@ -7,31 +7,31 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Site Title</title>
+  <title>Objects Practice: Movie Tickets</title>
 </head>
 <body>
 <!-- This section is the header of the site. -->
   <div class="container">
     <div class="jumbotron">
-      <h1>Site Heading</h1>
-      <p>Site Intro</p>
+      <h1>Welcome to Epicodus 12 Theaters</h1>
+      <p>Come and pay way too much for a movie and popcorn</p>
     </div>
 <!-- This section is... -->
   <form>
     <label for="movie-select">Choose a movie:</label>
     <select id="movie-select">
       <option value="">--Please choose an option--</option>
-      <option value="15" name="movie">Movie 1</option>
-      <option value="10" name="movie">Movie 2</option>
-      <option value="10" name="movie">Movie 3</option> s
+      <option value="1" name="movie">Movie 1</option>
+      <option value="2" name="movie">Movie 2</option>
+      <option value="3" name="movie">Movie 3</option> s
     </select>
     <br>
     <label for="time-select">Choose a time:</label>
     <select id="time-select">
       <option value="">--Please choose an option--</option>
-      <option value="0" name="time">Matinee</option>
-      <option value="3" name="time">Afternoon</option>
-      <option value="5" name="time">Evening</option>
+      <option value="1" name="time">Matinee</option>
+      <option value="2" name="time">Afternoon</option>
+      <option value="3" name="time">Evening</option>
     </select>
     <br>
     <label for="age-select">Choose a ticket:</label>
@@ -39,11 +39,14 @@
       <option value="">--Please choose an option--</option>
       <option value="1" name="age">Child</option>
       <option value="2" name="age">Adult</option>
-      <option value="0" name="age">Senior</option>
+      <option value="3" name="age">Senior</option>
     </select>
     <br>
      <button type="submit" name="button" class="btn btn-dark">Get Tickets</button>
   </form>
+
+  <div id="ticketInfo">
+  </div>
 <!-- As with the very first section, this section should generally not be edited. -->
   </div>
 </body>
