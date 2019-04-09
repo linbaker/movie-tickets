@@ -1,13 +1,50 @@
+<!-- This section sets up our html code, links to stylesheets and scripts. Editing this section is generally not recommended. -->
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Movie Tickets</title>
-  </head>
-  <body>
-
-  </body>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Site Title</title>
+</head>
+<body>
+<!-- This section is the header of the site. -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Site Heading</h1>
+      <p>Site Intro</p>
+    </div>
+<!-- This section is... -->
+  <form>
+    <label for="movie-select">Choose a movie:</label>
+    <select id="movie-select">
+      <option value="">--Please choose an option--</option>
+      <option value="15" name="movie">Movie 1</option>
+      <option value="10" name="movie">Movie 2</option>
+      <option value="10" name="movie">Movie 3</option> s
+    </select>
+    <br>
+    <label for="time-select">Choose a time:</label>
+    <select id="time-select">
+      <option value="">--Please choose an option--</option>
+      <option value="0" name="time">Matinee</option>
+      <option value="3" name="time">Afternoon</option>
+      <option value="5" name="time">Evening</option>
+    </select>
+    <br>
+    <label for="age-select">Choose a ticket:</label>
+    <select id="age-select">
+      <option value="">--Please choose an option--</option>
+      <option value="1" name="age">Child</option>
+      <option value="2" name="age">Adult</option>
+      <option value="0" name="age">Senior</option>
+    </select>
+    <br>
+     <button type="submit" name="button" class="btn btn-dark">Get Tickets</button>
+  </form>
+<!-- As with the very first section, this section should generally not be edited. -->
+  </div>
+</body>
 </html>
